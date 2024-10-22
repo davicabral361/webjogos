@@ -1,0 +1,11 @@
+colocar no index quando for atualizar:
+
+if(!isset($_SESSION)){
+  session_start();
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+para o sistema de  login dar certo deve-se criar ma base de dados com o nome de webjogos e dar ctl+c no webjogos.sql e ctl+v no SQL
+
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,104 @@
+/*Estilização do fundo*/
+  /*Fundo feio*/
+  /*https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80*/
+/*Estilização do Body*/
+body {
+  background: linear-gradient(to bottom, #000080, #000000);
+  background-attachment: fixed; /* Se desejar que o fundo fique fixo quando rolar a página */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+  /*Tamanho das iamgens do site, deve ser seguida como padrão para todas as imagens de ilustração*/
+  img{
+    width: 200px;
+    height: 100px;
+    float:left;
+    padding:10px;
+    margin-top:45px;
+    margin-left:10px;
+  }
+  /*Estilização da mensagem e boas-vindas ao usuário*/
+  #mensagem{
+    display:inline;
+    float:none;
+    color:white; 
+    text-align:center;
+    background-color:rgba(0,0,0,0.5);
+    height: 200px;
+    width: 100%;
+    padding-top:20px;
+    font-family:Arial;
+  }
+  /*Estiliação do nome do site*/
+  h1 {
+    text-align:center;
+    color:white;
+  }
+  /*estilização do botão de Login*/
+  .login{
+    background-color:#141f2b;
+    border:1px;
+    color:white;
+    font-size:13px;
+    font-family:Arial;
+  }
+  /*Estilização da Barra de Opções*/
+  #barra{
+    background-color:#283e4d;
+    height:70px;
+    width:100%;
+    margin:0;
+    padding:15px
+  }
+
+  #adicionar{
+    background-color:green;
+    border:0px;
+    color:white;
+    font-size:18px;
+    height:20px;
+    float:right;
+    margin-right:0px;
+    margin-bottom:20px;
+
+  }
+  /*Tentativa de criar uma separação entre as Divs...sem sucesso*/
+  .fundo{
+    padding-top:10px
+  }
+  /*.imagens{
+    height:200px;
+    width:300px;
+    padding-top:10px;
+  }*/
+  /*Estiliação dos elementos da tabela 'Jogo', 'Gênero' e 'Empresa'*/
+  th{
+    text-align:left;
+  }
+  #espacamento{
+    height:50px;
+    width:100%;
+  }
+  td{
+    text-align:left;
+  }
+  #saldo{
+    height:30px;
+    width:40px;
+    float:right;
+    color:white;
+    background-color:#141f2b;
+    font-family:Arial;
+    font-size:13px;
+    margin:auto;
+  }
+  #criar{
+    float:left;
+    color:white;
+    background-color:cadetblue;
+    font-family:Arial;
+    font-size:13px;
+    margin-right:10px;
+    border:0;
+  }
